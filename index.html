@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Links</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="header-title">
+        <h1 onclick="resetFilters()">Links</h1>
+        <span class="total-count" id="total-count"></span>
+      </div>
+      <p class="subtitle">My Link Collection</p>
+
+      <div class="search-box">
+        <input type="text" id="search" placeholder="Search...">
+      </div>
+
+      <div class="tags-section">
+        <h3>Tags</h3>
+        <div class="tags-filter" id="tags-filter"></div>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <div class="cards-grid" id="cards-grid"></div>
+      <div class="empty-state" id="empty-state" style="display: none;">
+        <p>No links found</p>
+      </div>
+    </main>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

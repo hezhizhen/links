@@ -1,6 +1,64 @@
 // biome-ignore lint/correctness/noUnusedVariables: used by app.js
 const linksData = [
 	{
+		cover: "https://onevcat.link/magpie-icon.png",
+		title: "Magpie - 我的链接收藏",
+		description: "onevcat 的链接收藏",
+		link: "https://onevcat.link",
+		tags: ["Links", "onevcat"],
+		note: "",
+		highlights: [],
+	},
+	{
+		cover: "",
+		title: "从「写代码」到「验代码」：AI 搭档写走 3 年，我踩出来的协作路线图",
+		description: "",
+		link: "https://yousali.com/posts/20251124-how-to-coding-with-ai/",
+		tags: ["AI", "Programming", "Productivity"],
+		note: "",
+		highlights: [],
+	},
+	{
+		cover: "https://loggingsucks.com/assets/boristane.png",
+		title: "Logging Sucks - Your Logs Are Lying To You",
+		description:
+			"A guide explaining fundamental problems with conventional logging practices and how to implement structured, context-rich logging solutions.",
+		link: "https://loggingsucks.com",
+		tags: ["Observability", "Logging", "Programming"],
+		note: "",
+		highlights: [],
+	},
+	{
+		cover: "https://yaak.app/static/logo.svg",
+		title: "Yaak",
+		description:
+			"A fast, secure, offline API client for modern developers with Git integration, plugin support, and zero telemetry.",
+		link: "https://yaak.app",
+		tags: ["API Client", "Developer Tools"],
+		note: "",
+		highlights: [],
+	},
+	{
+		cover: "https://www.usebruno.com/logo.png",
+		title: "Bruno",
+		description:
+			"Open source IDE for exploring and testing APIs. A lightweight, Git-friendly alternative to Postman/Insomnia with offline-first design.",
+		link: "https://www.usebruno.com",
+		tags: ["API Client", "Open Source", "Developer Tools"],
+		note: "",
+		highlights: [],
+	},
+	{
+		cover: "https://mymorningroutine.com/assets/images/book/cover@2x.png",
+		title: "My Morning Routine",
+		description:
+			"A book and website to help you create a morning routine that works for you",
+		link: "https://mymorningroutine.com",
+		tags: ["Productivity", "Habits", "Self-improvement"],
+		note: "",
+		highlights: [],
+	},
+	{
 		cover: "https://i.typlog.com/lepture/16/2QnTZxQC1WehMrpDXpJw.jpg",
 		title: "像遊客一樣生活",
 		description:

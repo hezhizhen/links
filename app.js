@@ -120,9 +120,9 @@ function createCardHTML(link) {
             <a href="${link.link}" target="_blank" rel="noopener noreferrer">${link.title}</a>
           </h2>
           <a class="card-domain" href="${link.link}" target="_blank" rel="noopener noreferrer">${link.link}</a>
+          ${link.description ? `<p class="card-description">${link.description}</p>` : ""}
         </div>
       </div>
-      <p class="card-description">${link.description}</p>
       <div class="card-tags">${tagsHTML}</div>
       ${noteHTML}
       ${highlightsHTML}

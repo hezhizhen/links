@@ -16,7 +16,13 @@
    - `{origin}/apple-touch-icon.png`
    - `{origin}/favicon.ico`
 
-3. 直接更新 `data.js`，在 `linksData` 数组**开头**添加新条目
+3. 检查 `data.js` 中是否已存在该链接（URL 完全匹配或去除协议/尾斜杠后匹配）
+   - 若已存在，先展示对比表格（字段 | 当前值 | 新值），然后使用 AskUserQuestion 询问用户处理方式：
+     - **跳过**：不添加该链接
+     - **更新**：用新信息刷新已存在条目的 title/description/cover/tags
+     - **仍添加**：在开头添加新条目（允许重复）
+
+4. 若不存在或用户选择"仍添加"，在 `linksData` 数组**开头**添加新条目
    - note 和 highlights 留空
 
 ## 数据结构

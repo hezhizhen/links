@@ -1,6 +1,56 @@
 // biome-ignore lint/correctness/noUnusedVariables: used by app.js
 const linksData = [
 	{
+		cover: "https://i.typlog.com/lepture/16/2QnTZxQC1WehMrpDXpJw.jpg",
+		title: "像遊客一樣生活",
+		description:
+			"你時常也會聽到「像當地人一樣旅行」的言論吧，他們說遊客都是去千篇一律的地方，沒有辦法瞭解當地的文化。",
+		link: "https://lepture.com/zh/2017/live-better",
+		tags: ["Blog", "Life", "lepture"],
+		note: "",
+		highlights: [],
+	},
+	{
+		cover: "https://www.yuloveboyi.com/opengraph-image.png",
+		title: "In the Mood for Love",
+		description: "A Digital Exhibition 2025.02.14 - 2025.02.23",
+		link: "https://www.yuloveboyi.com",
+		tags: ["Digital Art", "Exhibition", "Love"],
+		note: "",
+		highlights: [],
+	},
+	{
+		cover: "",
+		title: "How To Ask Questions The Smart Way",
+		description:
+			"A guide by Eric S. Raymond on asking technical questions effectively. The kind of answers you get depends as much on how you ask as on the difficulty of the question.",
+		link: "http://www.catb.org/~esr/faqs/smart-questions.html",
+		tags: ["Article", "Programming", "Eric S. Raymond"],
+		note: "",
+		highlights: [],
+	},
+	{
+		cover:
+			"https://substackcdn.com/image/fetch/$s_!2hIv!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3dfcf6a5-1c83-4533-9c9a-ce81a34e4214_1024x1024.png",
+		title: "bye, mom",
+		description:
+			'A personal essay about the death of her mother. "It\'s a heavy thing to be loved so fiercely."',
+		link: "https://aella.substack.com/p/bye-mom",
+		tags: ["Substack", "Personal Essay", "Aella"],
+		note: "",
+		highlights: [],
+	},
+	{
+		cover: "https://s.turbifycdn.com/aah/paulgraham/what-to-do-1.gif",
+		title: "What to Do",
+		description:
+			'An essay exploring life\'s fundamental question—one should help people, care for the world, and "make good new things" as the highest form of human thinking.',
+		link: "https://www.paulgraham.com/do.html",
+		tags: ["Article", "Paul Graham"],
+		note: "",
+		highlights: [],
+	},
+	{
 		cover:
 			"https://substackcdn.com/image/fetch/$s_!irGi!,w_80,h_80,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F057c6efe-3c21-4481-a241-dc768601420d_2000x2000.jpeg",
 		title: "边角聊 | Substack",
@@ -28,7 +78,7 @@ const linksData = [
 		description:
 			"A beautiful desktop application that unifies your AI experience by seamlessly switching between OpenAI, Anthropic, Google Gemini, and custom providers.",
 		link: "https://alma.now",
-		tags: ["AI", "macOS"],
+		tags: ["AI", "macOS", "yetone"],
 		note: "",
 		highlights: [
 			"Beautiful Chat Interface",

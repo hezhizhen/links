@@ -2,7 +2,7 @@
 
 ## 添加链接流程
 
-当用户提供一个 URL 时，执行以下操作：
+当用户提供一个 URL 时，自动执行以下操作（无需询问用户）：
 
 1. 使用 WebFetch 获取页面信息，提取：
    - title: 页面标题
@@ -16,11 +16,8 @@
    - `{origin}/apple-touch-icon.png`
    - `{origin}/favicon.ico`
 
-3. 让用户补充（可选）：
-   - note: 个人笔记
-   - highlights: 重点摘录
-
-4. 更新 `data.js`，在 `linksData` 数组**开头**添加新条目
+3. 直接更新 `data.js`，在 `linksData` 数组**开头**添加新条目
+   - note 和 highlights 留空
 
 ## 数据结构
 

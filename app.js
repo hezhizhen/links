@@ -56,10 +56,12 @@ function updateTagButtons() {
 
 function filterLinks() {
 	return linksData.filter((link) => {
-		// Tag filter
+		// Tag filter (AND logic: must have all selected tags)
 		if (selectedTags.size > 0) {
-			const hasTag = link.tags.some((tag) => selectedTags.has(tag));
-			if (!hasTag) return false;
+			const hasAllTags = [...selectedTags].every((tag) =>
+				link.tags.includes(tag),
+			);
+			if (!hasAllTags) return false;
 		}
 
 		// Search filter

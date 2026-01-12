@@ -1,6 +1,16 @@
 // biome-ignore lint/correctness/noUnusedVariables: used by app.js
 const linksData = [
   {
+    cover: "",
+    title: "How Browsers Work",
+    description:
+      "交互式浏览器工作原理指南。面向每天使用 Web 但从未构建过浏览器工作心智模型的工程师和好奇者。通过大量可交互的示例帮助理解浏览器如何解析 HTML、建立 TCP 连接、DNS 解析、DOM 构建以及渲染流程。",
+    link: "https://howbrowserswork.com",
+    tags: ["Browser", "Web", "Engineering", "Guide", "Interactive"],
+    note: "",
+    highlights: [],
+  },
+  {
     cover:
       "https://cdn.justinbot.com/wp-content/uploads/2022/06/Share-Image-2-compressed.jpg",
     title: "枫言枫语",

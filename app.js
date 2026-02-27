@@ -103,6 +103,13 @@ function createCardElement(link) {
 		img.src = link.cover;
 		img.alt = link.title;
 		img.className = "card-cover";
+		img.loading = "lazy";
+		img.onerror = function () {
+			const placeholder = document.createElement("div");
+			placeholder.className = "card-cover-placeholder";
+			placeholder.textContent = link.title.charAt(0).toUpperCase();
+			this.replaceWith(placeholder);
+		};
 		header.appendChild(img);
 	} else {
 		const placeholder = document.createElement("div");
